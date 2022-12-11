@@ -1,0 +1,134 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+@import "bulma";
+
+.notification:not(:last-child){
+	margin-bottom: 0;
+}
+
+.notification.is-info {
+    background-color: #00d1b2;
+    color: #fff;
+}
+
+.profile_image {
+  border-radius: 50%;
+}
+
+.card-image:first-child img {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.card-image:last-child img {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.main-image {
+	height: 600px;
+	width: 100%;
+	background-image: url(0-48_min.jpg);
+// 	background-repeat: no-repeat;
+// 	background-size: contain;
+	text-align: center;
+}
+
+// var color
+.navbar.is-warning {
+    /* background-color: #ffe08a; */
+    color: rgba(0, 0, 0, 0.7);
+}
+
+// mychandise
+.title.is-4 {
+    font-size: 2.5rem;
+}
+
+.title {
+    // color: #FFAC1D;
+    font-size: 2rem;
+}
+
+// top button
+.button.is-warning {
+    /* background-color: #ffe08a; */
+    /* border-color: transparent; */
+    color: #f9c536;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+// current place bar
+.hero.is-success {
+    background-color: #FFAC1D;
+    color: #fff;
+}
+
+// section color
+.section {
+    background-color: #ff990021;
+}
+
+a {
+    color: #0a0a0a;
+}
+
+.hero.is-success .title {
+    color: #946c00;
+}
+
+.navbar.is-warning {
+    background-color: #FFAC1D;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.hero.is-success {
+    background-color: #ffe08a;
+    color: #fff;
+}
+
+.hero.is-info {
+    background-color: #ffe08a;
+}
+
+.hero.is-info .title {
+    color: #946c00;
+}
+
+
+.button.is-warning {
+    /* background-color: #ffe08a; */
+    /* border-color: transparent; */
+    color: #946c00;
+}
+
+.button.is-success {
+    background-color: #FFAC1D;
+}
+
+.button.is-primary {
+    background-color: #FFAC1D;
+    border-color: transparent;
+    color: #fff;
+}
+
+.panel.is-link .panel-heading {
+    background-color: #FFAC1D;
+    color: #fff;
+}
